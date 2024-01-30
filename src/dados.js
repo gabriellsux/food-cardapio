@@ -61,4 +61,21 @@ const pedidos = [
     {id_pedido: 998524, dt: "30/01/2024", total: 50.00},
 ];
 
-export {produtos, pedidos}
+const carrinho = [
+    {
+        id: 1,
+        nome: "X-tudo",
+        preco: 20.00,
+        foto: "https://jornadajs-food.s3.amazonaws.com/spicy.png",
+        qtd: 2
+    },
+    {
+        id: 2,
+        nome: "X-salada",
+        preco: 15.00,
+        foto: "https://jornadajs-food.s3.amazonaws.com/sanduba.png",
+        qtd: 2
+    }
+];
+
+export {produtos, pedidos, carrinho}
