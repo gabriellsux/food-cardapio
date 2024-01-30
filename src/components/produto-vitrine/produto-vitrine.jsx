@@ -1,15 +1,16 @@
 import './produto-vitrine.css';
 import foto from "../../assets/hamburguer.png";
 import bag from "../../assets/bag-black.png";
+import { pedidos } from '../../dados';
 
-function ProdutoVitrine(){
+function ProdutoVitrine(props){
     return <div className="produto-box text-center">
-        <img src={foto} alt="Foto" />
+        <img src={props.foto} alt="Foto" />
         
         <div>
-            <h2>Spicy Burguer</h2>
-            <p className="prod-vitrine-descricao">Hambueguer de 250g, queijo, tomate, alface e cebola</p>
-            <p className="prod-vitrine-preco">R$ 18,90</p>
+            <h2>{props.nome}</h2>
+            <p className="prod-vitrine-descricao">{props.nome}</p>
+            <p className="prod-vitrine-preco">{new Intl.NumberFormat('pt-br', {style: 'currency', currency: "BRL"}).format(props.preco)}</p>
         </div>
 
         <div>
