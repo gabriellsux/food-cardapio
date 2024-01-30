@@ -4,49 +4,49 @@ const produtos = [
         nome: "Spicy Burguer",
         descricao: "Hamburguer de 250g, queijo, tomate, alface e cebola",
         preco: 24.90,
-        foto: "https://jornadajs-food.s3.amazonws.com/spicy.png"
+        foto: "https://jornadajs-food.s3.amazonaws.com/spicy.png"
     },
     {
         id: 2,
         nome: "Sanduba",
         descricao: "Sanduiche natural, alface, tomate, pão integral e orégano",
         preco: 22.00,
-        foto: "https://jornadajs-food.s3.amazonws.com/sanduba.png"
+        foto: "https://jornadajs-food.s3.amazonaws.com/sanduba.png"
     },
     {
         id: 3,
         nome: "Super Burguer",
         descricao: "Hamburguer de 300g, molho, queijo, tomate, alface e cebola",
         preco: 29.90,
-        foto: "https://jornadajs-food.s3.amazonws.com/super.png"
+        foto: "https://jornadajs-food.s3.amazonaws.com/super.png"
     },
     {
         id: 4,
         nome: "Mega",
         descricao: "Hamburguer de 300g, maionese, tomate, alface, queijo e cebola",
         preco: 34.90,
-        foto: "https://jornadajs-food.s3.amazonws.com/mega.png"
+        foto: "https://jornadajs-food.s3.amazonaws.com/mega.png"
     },
     {
         id: 5,
         nome: "Penne",
         descricao: "Penne ao molho especial de tomates rústicos, ervas aromáticas e cebola",
         preco: 27.00,
-        foto: "https://jornadajs-food.s3.amazonws.com/penne.png"
+        foto: "https://jornadajs-food.s3.amazonaws.com/penne.png"
     },
     {
         id: 6,
         nome: "Fritas",
         descricao: "Batata frita crocante com molho especial de maionese da casa",
         preco: 14.90,
-        foto: "https://jornadajs-food.s3.amazonws.com/fritas.png"
+        foto: "https://jornadajs-food.s3.amazonaws.com/fritas.png"
     },
     {
         id: 7,
         nome: "Coca-Cola Lata",
         descricao: "Coca-Cola em lata de 500ml, trincando de gelada para você",
         preco: 9.90,
-        foto: "https://jornadajs-food.s3.amazonws.com/coca.png"
+        foto: "https://jornadajs-food.s3.amazonaws.com/coca.png"
     },
 ];
 
